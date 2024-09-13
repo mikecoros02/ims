@@ -14,6 +14,7 @@ React + Laravel Fullstack Web App that controls the data from Subscribers
 -   Go back to the terminal that you run composer install and run "php artisan migrate"
 -   Please select "yes" to the question for migration
 -   Run "php artisan migrate:fresh --seed" (for migration and fake data values)
+-   You can visit https://sqliteviewer.app/ and Open the database/database.sqlite file to see the generated data in database
 -   The resource example that you sent is always in the top row of database (id=1)
 -   Run "php artisan serve" in the terminal that you run php artisan migrate
 -   Open the react/.env and make sure that "VITE_API_BASE_URL=http://localhost:8000" is match with the generated port, update this if it's different in your local
