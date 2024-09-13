@@ -16,20 +16,20 @@ class SubscriberFactory extends Factory
      */
     public function definition(): array
     {
+        $domain = 'ims.' . $this->faker->regexify('[a-z0-9]{6}') . '.' . $this->faker->regexify('[a-z0-9]{6}') . '.3gppnetwork.org';
         $callForwardNoReply = [
             "callForwardNoReply" => [
                 "provisioned" => $this->faker->boolean,
                 "destination" => 'tel:' . $this->faker->phoneNumber
             ]
         ];
-
         $callForwardNoReplyJSON = json_encode($callForwardNoReply);
 
         return [
             'phoneNumber' => $this->faker->numerify('1##########'),
             'username' => $this->faker->numerify('###########'),
             'password' => 'p@ssw0rd!',
-            'domain' => 'ims.mnc660.mcc302.3gppnetwork.org',
+            'domain' => $domain,
             'status' => $this->faker->randomElement(['ACTIVE', 'INACTIVE']),
             'features' => $callForwardNoReplyJSON
         ];
