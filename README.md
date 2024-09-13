@@ -18,6 +18,7 @@ React + Laravel Fullstack Web App that controls the data from Subscribers
 -   Run "php artisan serve" in the terminal that you run php artisan migrate
 -   Open the react/.env and make sure that "VITE_API_BASE_URL=http://localhost:8000" is match with the generated port, update this if it's different in your local
 -   Open the other terminal that you run npm install and run "npm run dev"
+-   Open http://localhost:5173/, please change Port if you have different Port
 
 ## Notes
 
