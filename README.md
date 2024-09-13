@@ -4,7 +4,7 @@ React + Laravel Fullstack Web App that controls the data from Subscribers
 
 ## Installation
 
--   Extract the zip file in your folder
+-   Download and extract the zip file in your folder
 -   Open it to your favorite Code Editor (e.g. vscode)
 -   Open terminal and go to "ims-main" directory
 -   Run "composer install" in the terminal while in the "ims-main" directory
