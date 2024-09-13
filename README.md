@@ -16,7 +16,7 @@ React + Laravel Fullstack Web App that controls the data from Subscribers
 -   Run "php artisan migrate:fresh --seed" (for migration and fake data values)
 -   The resource example that you sent is always in the top row of database (id=1)
 -   Run "php artisan serve" in the terminal that you run php artisan migrate
--   Open the react/.env and make sure that "VITE_API_BASE_URL=http://localhost:8000" is match with the generated port update this if it's different in your local
+-   Open the react/.env and make sure that "VITE_API_BASE_URL=http://localhost:8000" is match with the generated port, update this if it's different in your local
 -   Open the other terminal that you run npm install and run "npm run dev"
 
 ## Notes
