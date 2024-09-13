@@ -27,7 +27,7 @@ React + Laravel Fullstack Web App that controls the data from Subscribers
 
 ## API Endpoints (Update the Port with your current Port)
 
-**Get All**
+**Get All Data**
 
 -   (GET) http://localhost:8000/api/subscriber (soft deleted cannot be fetched)
 
@@ -35,10 +35,10 @@ React + Laravel Fullstack Web App that controls the data from Subscribers
 
 -   (GET) http://localhost:8000/api/subscriber/{$phoneNumber} (soft deleted data cannot be fetched)
 
-**Update**
+**Update by Phone Number**
 
 -   (PUT) http://localhost:8000/api/subscriber/{$phoneNumber} (if the phoneNumber cannot be found, it will create a new data)
 
-**Delete by ID**
+**Delete by Phone Number**
 
 -   (DELETE) http://localhost:8000/api/subscriber/{$phoneNumber} (only soft deletes, meaning data is still there but cannot be fetched)
